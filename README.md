@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Project : Bored-API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Bored App is a web application that when you're bored, randomly recommends activities based on your chosen criteria.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Project : React Bored App](#project--react-bored-app)
+  - [Table of contents](#table-of-contents)
+  - [The challenge](#the-challenge)
+  - [Project Skeleton](#project-skeleton)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+    - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
+  - [Installation](#installation)
+  - [Author](#author)
+  - [Contact](#contact)
 
-### `npm start`
+## The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To create an advanced app with React and use Bored API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Skeleton
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+|----README.md
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── Button.css
+│    │       └── ButtonHover.jsx.jsx
+│    ├── pages
+│    │       ├── Home.jsx
+│    │       └── Main.css
+|    ├── styles
+│    │       ├── Button.styled.jsx
+│    │       ├── Home.styled.jsx
+│    │       ├── InputBox.styled.jsx
+│    │       ├── Link.styled.jsx
+│    │       └── Section.styled.jsx
+│    ├── App.js
+│    ├── index.js
+│    └── index.css
+├── package-lock.json
+└── package.json
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+<a href="https://bored-api-eta.vercel.app/"><img src="https://media4.giphy.com/media/xs5S59Kj7nDZv0Vd4m/giphy.gif?cid=790b76119bd9abccb6544c8dabe7b9c5d4c455b7c09d8d59&rid=giphy.gif&ct=g" alt="screenshot"></a>
+</p>
 
-### `npm run eject`
+## Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://bored-api-eta.vercel.app/">Live Website</a>
+<hr>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React Components, Props, States and Hooks
+- API GET requests
+- Axios
+- Styled-Components
+- JSX Elements
+- CSS custom properties
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Useful resources
 
-## Learn More
+- [W3 Schools](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [Bored API](https://www.boredapi.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use the Npm package manager install command.
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Author - [Oussama Fajraoui]
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+<a href="https://www.linkedin.com/in/oussama-fajraoui%E2%9C%94-59436b22b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="oussama-fajraoui" height="30" width="40" /></a>
+</p>
